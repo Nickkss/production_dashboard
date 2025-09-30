@@ -6,7 +6,7 @@ setup(
     description='Custom Job Card Production Dashboard for ERPNext',
     author='Nickkss',
     author_email='your-email@example.com',
-    packages=find_packages(include=['production_dashboard', 'production_dashboard.*']),
+    packages=find_packages(include=['production_dashboard_app', 'production_dashboard_app.*']),
     include_package_data=True,
     zip_safe=False,
     install_requires=[]
